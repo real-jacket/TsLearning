@@ -1,2 +1,2 @@
 # TsLearning
-ts入门进行的联系
+ts入门进行的练习
