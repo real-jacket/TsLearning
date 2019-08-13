@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+        "name": "ts-node",
+        "type": "node",
+        "request": "launch",
+        "program": "C:/Users/xiaomu/AppData/Roaming/npm/node_modules/ts-node/dist/bin.js",
+        "args": ["${relativeFile}"],
+        "cwd": "${workspaceRoot}",
+        "protocol": "inspector"
+        }
+    ]
+}
