@@ -1,0 +1,39 @@
+.container {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.container .output {
+    background: #dddddd;
+    height: 100px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.container .output .num{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 30px;
+}
+
+.container .row .text {
+    width: 4em;
+    height: 4em;
+    background: white;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.container .row .text-0 {
+    width: 8em;
+}
+
+.container .row .text-AC {
+    color: orangered;
+}
+
+.container .row .text-\={
+    background: orangered;
+    color: white;
+    border-color: orangered;
+}
