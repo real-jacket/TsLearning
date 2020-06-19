@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Button from './button'
+import Atton from './atton'
+
+function onClick(e:React.MouseEvent) {
+  console.log('fn')
+  console.log(e);
+  
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <Button size='small'></Button>
+    <Button onClick={onClick}>
+      <span>aaaa</span>
+      <span>bbbb</span>
+    </Button>
+    <Button size='big'></Button>
+    <Atton></Atton>
+  </div>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
