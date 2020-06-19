@@ -1,4 +1,4 @@
-function add(x: number, y: number): number {
+function add2(x: number, y: number): number {
 	return x + y
 }
 
